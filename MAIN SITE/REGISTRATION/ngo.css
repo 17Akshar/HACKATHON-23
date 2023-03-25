@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body {
+background-color: linear-gradient(120deg, #2980b9, #8e44ad);
+} */
+
+body {
+    background-image: url('food\ template.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0006b8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    background-image: url(' ?????????????????????????.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    text-decoration: none;
+    padding: 30px 550px;
+    border-radius: 50%;
+}
+
+.container input[type="submit"] {
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* register form container*/
+
+.container1 {
+    padding: 18px 120px;
+}
+
+.container1 input[type="submit"] {
+    border: none;
+    border-radius: 20px;
+    /* padding: 25px 550px; */
+}
+
+
+/* The "Forgot password" text */
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+container signin {
+    justify-content: center;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+
+/* @media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {
+width: 100%;
+}
+} */
+
+
+/* .container signin a:hover {
+color: aqua;
+}
+
+.container a:hover {
+color: aqua;
+} */
+
+
+/*                                 
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    background-color: #0006b8;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container3 {
+    text-decoration: none;
+    padding: 30px 550px;
+    border-radius: 50%;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
+
+.select {
+    padding: 125px 150px;
+}
