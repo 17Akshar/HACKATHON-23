@@ -1,139 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Site</title>
-    <link rel="stylesheet" href="C:\Users\PC\Desktop\HAKATHON\main_page.css">
+    <link rel="stylesheet" href="C:\Users\PC\Desktop\HAKATHON\main_page.css" />
+    <link rel="stylesheet" href="site.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="site.js"></script>
+  </head>
 
-    <link rel="stylesheet" href="site.css">
-</head>
-
-<body>
-    <div class="main">
-        <div class="main">
-            <div class="navbar">
-                <div class="img">Logo</div>
-                <div class="btn">
-                    <a href=""><button><h2>Login/Register</h2></button></a>
-                </div>
-            </div>
-            <div class="info">
-                <!-- <img src="back.jpg" alt=""> -->
-                <!-- <img src="recepi.PNG" alt="food recepi">  -->
-                <div class="para">
-                    <h1>UNITED NATION STATISTICAL DATA</h1>
-                    <p>
-                        <H2>An estimated 17% of total global food production is wasted.</H2>
-                    </p>
-                </div>
-            </div>
-            <div class="services">
-                <div class="heading">
-                    <h1>Our Services</h1>
-                </div>
-                <div class="cards">
-
-
-                    <div class="card">
-                        <div class="img">
-                            <img src="../../ASSETS/recepi.PNG" alt="">
-                        </div>
-                        <div class="title">
-                            <H1>RECEPE</H1>
-                        </div>
-                        <div class="para">
-                            <P>
-                                <h3>"GIVE US THE INGREDIANTS,WE WILL GIVE YOU THE RECEPE"</h3>
-                            </P>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img">
-                            <img src="../../ASSETS/ngo.PNG" alt="">
-                        </div>
-                        <div class="title">
-                            <H1>GROCERY</H1>
-                        </div>
-                        <div class="para">
-                            <P>
-                                <H3>"FIND YOUR NEAREST GROCERY STORE"</H3>
-                            </P>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img">
-                            <img src="../../ASSETS/grocery.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            <H1>NGO</H1>
-                        </div>
-                        <div class="para">
-                            <p>
-                                <h3>"DONATE TO NGO,DONATE TO GOD"</h3>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+  <body>
+    <div class="main relative">
+      <div class="main">
+        <div class="navbar">
+          <div class="img">
+            <img src="../../ASSETS/image-removebg-preview (1).png" alt="" />
+          </div>
+          <button
+            class="group rounded-2xl h-10 w-40 bg-green-500 text-md mr-5 text-white relative overflow-hidden"
+          >
+            Login
+            <div
+              class="absolute duration-300 inset-0 w-full h-full transition-all scale-0 group-hover:scale-100 group-hover:bg-white/30 rounded-2xl"
+            ></div>
+          </button>
         </div>
-<<<<<<< HEAD
-      </div>
-      <div class="info">
-        <!-- <img src="recepi.PNG" alt="food recepi">  -->
-        <div class="para">
-          <h1>UNITED NATION STATISTICAL DATA</h1>
-          <p> <H2>An estimated 17% of total global food production is wasted.</H2></p>
+        <div class="info">
+          <!-- This is an example component -->
+          <div class="w-xl m-0">
+            <div id="default-carousel" class="relative" data-carousel="static">
+              <!-- Carousel wrapper -->
+              <div
+                class="overflow-hidden relative h-50 rounded-lg sm:h-64 xl:h-80 xl:h-96"
+              >
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img
+                    src="../../ASSETS/un4.jpg"
+                    class="block blur-sm absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                    alt="..."
+                  />
+                  <span
+                    class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800"
+                    >People globally waste 1 billion tonnes of food each
+                    year</span
+                  >
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img
+                    src="../../ASSETS/un5.avif"
+                    class="block blur-md drop-shadow-xl absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                    alt="..."
+                  />
+                  <span
+                    class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800"
+                  >
+                    A staggering one-third of all food produced worldwide is
+                    lost or wasted</span
+                  >
+                </div>
+              </div>
+
+              <!-- Slider controls -->
+              <button
+                type="button"
+                class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                >
+                  <svg
+                    class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 19l-7-7 7-7"
+                    ></path>
+                  </svg>
+                  <span class="hidden">Previous</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                >
+                  <svg
+                    class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    ></path>
+                  </svg>
+                  <span class="hidden">Next</span>
+                </span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="services">
-        <div class="heading">
-          <h1>Our Services</h1>
+        <div class="services">
+          <div class="heading">
+            <h1>Our Services</h1>
           </div>
           <div class="cards">
-            
-             <div class="card">
-              <div class="img">
-<<<<<<< HEAD
-                <img src="C:\Users\PC\Desktop\HAKATHON\R1.jpg" alt="">
-=======
-                <img src="../../ASSETS/recepi.PNG" alt="">
->>>>>>> 8c1af6342fcf204e10a2396320f87b78d2517765
+            <div
+              class="flex w-1/5 items-center justify-center bg-indigo-50 rounded-xl cursor-pointer"
+            >
+              <div
+                class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl"
+              >
+                <img
+                  src="../../ASSETS/card1.jpg"
+                  alt="plant"
+                  class="h-auto w-zxl"
+                />
+                <div class="p-5">
+                  <p class="text-medium mb-5 text-gray-700">
+                    Give us the available ingredients will give you the recipe
+                  </p>
+                  <button
+                    onclick="showMenu(true)"
+                    class="w-full rounded-md bg-green-600 py-2 text-indigo-100 hover:bg-green-500 hover:shadow-md duration-75"
+                  >
+                    Searh Recipe
+                  </button>
+                </div>
               </div>
-              <div class="title"><H1>RECEPE</H1></div>
-              <div class="para"><P><h3>"GIVE US THE INGREDIANTS,WE WILL GIVE YOU THE RECEPE"</h3></P></div>
-             </div>
-             <div class="card">
-              <div class="img">
-                <img src="../../ASSETS/ngo.PNG" alt="">
+            </div>
+            <div
+              class="flex w-1/5 m-20 items-center justify-center bg-indigo-50 rounded-xl cursor-pointer"
+            >
+              <div
+                class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl"
+              >
+                <img
+                  src="../../ASSETS/grocery.jpg"
+                  alt="plant"
+                  class="h-auto w-zxl"
+                />
+                <div class="p-5">
+                  <p class="text-medium mb-5 text-gray-700">
+                    Make the grocery list and plan the meal like planning the
+                    meeting
+                  </p>
+                  <button
+                    disabled
+                    class="w-full rounded-md bg-green-600 py-2 text-indigo-100 hover:bg-green-500 hover:shadow-md duration-75"
+                  >
+                    Make Grocery List
+                  </button>
+                </div>
               </div>
-              <div class="title"><H1>GROCERY</H1></div>
-              <div class="para"><P><H3>"FIND YOUR NEAREST GROCERY STORE"</H3></P></div>
-             </div>
-             <div class="card">
-              <div class="img">
-                <img src="../../ASSETS/grocery.jpg" alt="">
+            </div>
+            <div
+              class="flex w-1/5 items-center justify-center bg-indigo-50 rounded-xl cursor-pointer"
+            >
+              <div
+                class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl"
+              >
+                <img
+                  src="../../ASSETS/card2.webp"
+                  alt="plant"
+                  class="h-auto w-zxl"
+                />
+                <div class="p-5">
+                  <p class="text-medium mb-5 text-gray-700">
+                    If you can't feed 100 people feed one
+                  </p>
+                  <button
+                    class="w-full disabled:opacity-0 rounded-md bg-green-600 py-2 text-indigo-100 hover:bg-green-500 hover:shadow-md duration-75"
+                  >
+                    Donate
+                  </button>
+                </div>
               </div>
-              <div class="title"><H1>NGO</H1></div>
-              <div class="para"><p><h3>"DONATE TO NGO,DONATE TO GOD"</h3></p></div>
-             </div>
-            
-          </div>
-          
+            </div>
           </div>
         </div>
       </div>
-=======
->>>>>>> 59bf1ad87986a72d0ee5ab51c000d8e275f1cdcb
     </div>
-    </div>
-    </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="site.js"></script>
-</body>
-
+    <script src="jquery.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+  </body>
 </html>
