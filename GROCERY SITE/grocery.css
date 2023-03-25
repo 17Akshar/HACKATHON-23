@@ -1,0 +1,35 @@
+#output{
+  width: 100%;
+  height:90vh;
+  background-color: greenyellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+#orders{
+  width: 100%;
+  height: 100%;
+  margin-top: -900px;
+  transition: ease-in 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#profile{
+  width: 100%;
+  height: 100%;
+  transition: ease-in 1s;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#th{
+  width: 100%;
+  height: 100%;
+  transition: ease-in 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
