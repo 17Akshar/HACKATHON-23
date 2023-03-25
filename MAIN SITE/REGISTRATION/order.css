@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding: 21px;
+}
+
+body {
+    background-image: url('food template.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+button {
+    background-color: #15eeca;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ccc;
+}
+
+.row {
+    background-color: transparent;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: row;
+    /* IE10 */
+    /* display: flex; */
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin: 0px;
+    float: left;
+    background-image: url(jj.jpg);
+    width: 130%;
+    height: 72vh;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+
+.col-25 {
+    -ms-flex: 55%;
+    /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    background-image: url(jj.jpg);
+    background: rgb(0, 0, 0);
+    color: #15eeca;
+    /* background-repeat: no-repeat; */
+    height: 250px;
+    -ms-flex: 600%;
+    /* IE10 */
+    flex: 110%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 5px 16px;
+}
+
+
+/* .container {
+background-color: #f2f2f2;
+padding: 5px 20px 15px 20px;
+border: 1px solid lightgrey;
+border-radius: 3px; */
+
+
+/* } */
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    justify-content: baseline;
+    background-color: black;
+    color: #f2f2f2;
+}
+
+li {
+    list-style: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
