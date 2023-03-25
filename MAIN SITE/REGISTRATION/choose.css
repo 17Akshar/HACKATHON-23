@@ -10,9 +10,9 @@
 }
 
 body {
-    background-image: url('food\ template.jpeg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: white;
+    color: white; */
+    background-color: aqua;
 }
