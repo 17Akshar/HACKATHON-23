@@ -12,7 +12,7 @@
 <body>
 
 
-    <form name=" myform" action="http://127.0.0.1:5501/dist/MainReg.html">
+    <form name="myform" method="POST" action="/registration">
         <div class="container1">
             <!-- <div class="form-box"> -->
             <!-- <p style="background-image: url('Reg.jpg');" width="">
@@ -25,18 +25,18 @@
             <hr>
 
             <label for="Shop Name"><b> Shop Name</b></label>
-            <input type="text" placeholder="Enter First Name" name="first" id="Shop Name" required>
+            <input type="text" placeholder="Enter First Name" name="shopname" id="Shop Name" required>
 
 
             <label for="Shop Owner Name"><b>Shop Owner Name </b></label>
-            <input type="text" placeholder="Enter Shop Owner Name" name="last" id="Shop Owner Name" required>
+            <input type="text" placeholder="Enter Shop Owner Name" name="shopowner" id="Shop Owner Name" required>
 
             <label for="email"><b>Email </b></label>
-            <input type="text" placeholder="Enter Email id" name="email" id="email" required>
+            <input type="text" placeholder="Enter Email id" name="enailid" id="email" required>
 
 
             <label for="Phone Number"><b>Phone Number</b></label>
-            <input type="text" placeholder="Enter Phone no." name="phone" id="Phone Number" required>
+            <input type="text" placeholder="Enter Phone no." name="phoneno" id="Phone Number" required>
 
             <!-- <label for="Country"><b>Country</b></label> -->
             <!-- <input type="text" placeholder="Enter Country" name="country" id="country" required> -->
@@ -317,26 +317,26 @@
             <input type="text" placeholder="Enter State" name="state" id="State" required>
 
             <label for="District"><b>District</b></label>
-            <input type="text" placeholder="Enter District" name="dis" id="District" required>
+            <input type="text" placeholder="Enter District" name="district" id="District" required>
 
             <label for="Pincode"><b>Pincode</b></label>
-            <input type="text" placeholder="Enter pincode" name="pin" id="Pincode" required>
+            <input type="text" placeholder="Enter pincode" name="pincode" id="Pincode" required>
 
             <label for="Pass"><b>password</b></label>
-            <input type="password" placeholder="Enter passowrd" name="pass" id="Pass" required>
+            <input type="password" placeholder="Enter passowrd" name="password" id="Pass" required>
 
             <label for="Password"><b> Confirm Passowrd</b></label>
-            <input type="password" placeholder="Enter Password-again" name="pass-c" id="passwordagain" required>
+            <input type="password" placeholder="Enter Password-again" name="confirmpass" id="passwordagain" required>
             <br>
             <br>
-
-            <label for="Upload Shop Logo"><b>Upload Shop Image</b></label>
-            <input type="file" id="myFile" name="filename">
-            <br>
-            <br>
-
             <label for=" Shop Description"><b> Shop Description</b></label>
-            <input type="text" placeholder="Enter Description" name="des" id="Shop Desciption" required>
+            <input type="text" placeholder="Enter Description" name="grocedescrip" id="Shop Desciption" required>
+            <label for="Upload Shop Logo"><b>Upload Shop Image</b></label>
+            <input type="file" id="myFile" name="groclogo">
+            <br>
+            <br>
+
+            
 
 
 
