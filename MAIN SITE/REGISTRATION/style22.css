@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.select {
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url('food\ template.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
