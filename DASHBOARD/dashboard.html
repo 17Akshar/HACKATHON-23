@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dashboard.css">
-  <title>DASHBOARD</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\PC\Desktop\dashoard\dashboard.css">
+    <title>Document</title>
 </head>
-<body>
-  <div class="main">
-    <div class="title">
-      <h1>Dashboard</h1>
+<div class="topnav">
+    <a class="active" href="#home">DASHBOARD</a>
+  </div>
+<body> 
+    <div class="middlenavbar">
+        <a href="#home" class="active">User</a>
+        <a href="#news">NGO</a>
+        <a href="#contact">Grocery</a>
     </div>
-    <div class="main-dash">
-      <div id="sub-nav"></div>
-      <div class="output"></div>
-      <div id="bottom-nav">
-        <li  onclick="Showsubnav()">link 1</li>
-        <li>link</li>
-        <li>link</li>
-      </div>
+</body>
+
+<div class="navbar">
+    <a href="#home" class="active">USER SHOW</a>
+    <a href="#news">FEEDBACK</a>
+    <a href="#contact">ADD RECIPE</a>
     </div>
   </div>
-  <script src="daashboard.js"></script>
-</body>
+
+  </div>
+  <div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">RECIPE NAME</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">INGREDIANTS</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">RECIPE DISCRIPTION</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
 </html>
