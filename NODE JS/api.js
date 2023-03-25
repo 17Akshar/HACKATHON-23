@@ -8,7 +8,6 @@ app.get('/',(req,res)=>{
   res.sendFile(path.join(__dirname,'../','MAIN SITE','LOGIN','login.html'))
 })
 app.get('/login',(req,res)=>{
-  res.sendFile(path.join(__dirname,'../','DASHBOARD','dashboard.html'))
-
+  
 })
 app.listen(3000)
