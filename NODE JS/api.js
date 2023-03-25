@@ -7,7 +7,7 @@ const path = require('path')
 app.get('/',(req,res)=>{
   res.sendFile(path.join(__dirname,'../','MAIN SITE','LOGIN','login.html'))
 })
-app.get('/admin',(req,res)=>{
+app.get('/login',(req,res)=>{
   res.sendFile(path.join(__dirname,'../','DASHBOARD','dashboard.html'))
 
 })
