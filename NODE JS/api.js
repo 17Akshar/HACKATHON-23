@@ -5,9 +5,12 @@ const path = require('path')
 // const conn = require('./database')
 
 app.get('/',(req,res)=>{
-  res.sendFile(path.join(__dirname,'../','MAIN SITE','LOGIN','login.html'))
+  res.sendFile(path.join(__dirname,'../','MAIN SITE','REGISTRATION','grocery.html'))
 })
-app.get('/login',(req,res)=>{
+// app.get('/login',(req,res)=>{
   
+// })
+app.post('/registration',(req,res)=>{
+  res.send(req.body)
 })
 app.listen(3000)

@@ -9,7 +9,7 @@ background-color: linear-gradient(120deg, #2980b9, #8e44ad);
 } */
 
 body {
-    background-image: url('food\ template.jpeg');
+    background-image: url('../../ASSETS/food template.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
