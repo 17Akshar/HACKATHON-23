@@ -37,4 +37,15 @@ app.get('/user',(req,res)=>{
     }
   })
 })
+app.get('/food',(req,res)=>{
+  q = `SELECT * FROM food`
+  conn.query(q,(err,result)=>{
+    if(err){
+      console.log(err)
+    }
+    else{
+      res.send(result)
+    }
+  })
+})
 app.listen(3000)
