@@ -3,6 +3,11 @@ const express = require('express')
 const app = express();
 const path = require('path')
 const conn = require('./database')
+const cors = require('cors');
+app.use(cors({
+    origin: '*'
+}));
+
 app.use(express.json())
 app.use(express.urlencoded())
 
