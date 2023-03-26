@@ -11,6 +11,10 @@ app.use(cors({
 app.use(express.json())
 app.use(express.urlencoded())
 
+app.set('view engine', 'jade');
+app.engine('jade', require('jade').__express); 
+// app.get()
+
 app.get('/demo',(req,res)=>{
   res.sendFile(path.join(__dirname,'../','MAIN SITE','REGISTRATION','grocery.html'))
 })
@@ -53,4 +57,5 @@ app.get('/food',(req,res)=>{
     }
   })
 })
+
 app.listen(3000)
