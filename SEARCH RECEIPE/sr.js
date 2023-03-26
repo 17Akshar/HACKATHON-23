@@ -27,7 +27,7 @@ fetchfood().then((data)=>{
   var new_arr = []
   array.forEach((data)=>{
     data.forEach((ele)=>{
-      new_arr.push(ele.replace("'\'",String.empty));  
+      new_arr.push(ele.replace("'\'","'/'",String.empty));  
     })
   })
   console.log(new_arr)
