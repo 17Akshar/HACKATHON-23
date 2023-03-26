@@ -22,11 +22,11 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #d0136f;
   color: white;
 }
 .middlenavbar{
-      background-color: #333;
+      background-color: #118482;
       overflow: hidden;
       /* position: fixed; */
       bottom: 5;
@@ -47,18 +47,18 @@
     /* Change the color of links on hover */
     .middlenavbar a:hover {
       background-color: #ddd;
-      color: black;
+      color: rgb(16, 202, 47);
     }
     
     /* Add a color to the active/current link */
     .middlenavbar a.active {
-      background-color: #333636;
+      background-color: #24b4b4;
       color: white;
     }
 
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
-  background-color: #333;
+  background-color: #19e1d7;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -84,7 +84,7 @@
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #2a2e2c;
+  background-color: #1695a5;
   color: white;
 }
 /* Style inputs, select elements and textareas */
