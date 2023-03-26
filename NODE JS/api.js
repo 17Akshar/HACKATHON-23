@@ -4,16 +4,19 @@ const app = express();
 const path = require('path')
 const conn = require('./database')
 const cors = require('cors');
+
 app.use(cors({
     origin: '*'
 }));
-
+const staticPath = path.join(__dirname,'../MAIN SITE/SITE')
 app.use(express.json())
 app.use(express.urlencoded())
+app.use(express.static(staticPath))
+app.get('/', function(req, res) {
+  res.send("DEMO")
+});
 
-app.set('view engine', 'jade');
-app.engine('jade', require('jade').__express); 
-// app.get()
+
 
 app.get('/demo',(req,res)=>{
   res.sendFile(path.join(__dirname,'../','MAIN SITE','REGISTRATION','grocery.html'))
